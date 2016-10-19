@@ -1,0 +1,27 @@
+{
+  "name": "prj-fortunecookie",
+  "version": "1.0.0",
+  "description": "aplicacion de galleta de la suerte",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "#"
+  },
+  "keywords": [
+    "node",
+    "fortune",
+    "cookie"
+  ],
+  "author": "@zuleymaD",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
