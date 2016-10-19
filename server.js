@@ -17,8 +17,9 @@ error : 'red',
 achivement : 'rainbow'
 });
 //obteniendo configuraciones
-var PORT = 3000;
-var IP ='127.0.0.1';    
+var config = require('./config/config');
+var PORT = config.PORT;
+var IP = config.IP;    
 //creando el server
 var server = http.createServer(function(req, res){
     res.writeHead(200,{
