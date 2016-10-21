@@ -1,0 +1,26 @@
+{
+  "name": "prj-fortunecookie",
+  "description": "aplicacion de galleta de la suerte",
+  "main": "server.js",
+  "authors": [
+    "@zuleymaD"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "fortune",
+    "cookie"
+  ],
+  "homepage": "https://github.com/zuleymaD/itofortunecookie",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sweetalert": "^1.1.3"
+  }
+}
